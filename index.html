@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO App</title>
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      i {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w-50 p-4 my-5 mx-auto shadow rounded bg-light">
+      <h2>TODO APP</h2>
+      <div class="form-group mb-3">
+        <label for="title">todo</label>
+        <input
+          type="text"
+          name="title"
+          id="title"
+          class="form-control"
+          aria-describedby="helpId"
+        />
+      </div>
+      <button id="addBtn" class="btn btn-outline-dark">ADD TODO</button>
+
+      <div class="todoContainer mt-3"></div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
